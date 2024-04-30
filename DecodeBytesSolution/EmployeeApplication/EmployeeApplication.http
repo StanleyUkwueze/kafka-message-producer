@@ -1,0 +1,9 @@
+@EmployeeApplication_HostAddress = https://localhost:7067
+
+GET {{EmployeeApplication_HostAddress}}/Employee
+Accept: application/json
+
+###
+
+POST {{EmployeeApplication_HostAddress}}/Employee?name=Glory&surName=Igwe
+Accept: application/json
